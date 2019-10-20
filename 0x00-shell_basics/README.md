@@ -75,15 +75,15 @@ It's a program called a terminal emulator. This is a program that opens a window
 **A shell prompt** that contains your user name and the name of the machine followed by a dollar sign
 
 **A shebang** is the character sequence consisting of the characters number sign and exclamation mark (#!) at the beginning of a script.
-**man** - an interface to the on-line reference manuals
-       1.   Executable programs or shell commands
-       2.   System calls (functions provided by the kernel)
-       3.   Library calls (functions within program libraries)
-       4.   Special files (usually found in /dev)
-       5.   File formats and conventions eg /etc/passwd
-       6.   Games
-       7.   Miscellaneous  (including  macro  packages and conven‐
+* **man** - an interface to the on-line reference manuals
+ *      1.   Executable programs or shell commands
+ *      2.   System calls (functions provided by the kernel)
+ *      3.   Library calls (functions within program libraries)
+ *      4.   Special files (usually found in /dev)
+ *      5.   File formats and conventions eg /etc/passwd
+ *      6.   Games
+ *      7.   Miscellaneous  (including  macro  packages and conven‐
            tions), e.g. man(7), groff(7)
-       8.   System administration commands (usually only for root)
-       9.   Kernel routines [Non standard]
+ *      8.   System administration commands (usually only for root)
+ *      9.   Kernel routines [Non standard]
 
