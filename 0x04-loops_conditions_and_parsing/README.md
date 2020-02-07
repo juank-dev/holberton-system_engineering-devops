@@ -6,7 +6,9 @@
 <p align="center">
   <img src="http://www.holbertonschool.com/holberton-logo.png">
 </p>
+
 ### General :wrench:
+
 * How to create SSH keys :key:
 
 ssh-keygen generates, manages and converts authentication keys for ssh
