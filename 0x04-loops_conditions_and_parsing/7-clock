@@ -1,0 +1,22 @@
+#!/usr/bin/env bash
+# ash script that displays numbers from 1 to 20 and:
+# displays 4 and then bad luck from China for the 4th loop iteration
+# displays 9 and then bad luck from Japan for the 9th loop iteration
+# displays 17 and then bad luck from Italy for the 17th loop iteration
+
+i=0
+h=0
+m=0
+while [ $i -le 779 ]
+do
+    if(( i % 60 == 0 ))
+    then
+      echo "Hour: $h"
+      m=0
+      ((h++))
+    else
+      echo "$m"
+    fi
+    ((i++))
+    ((m++))
+done
