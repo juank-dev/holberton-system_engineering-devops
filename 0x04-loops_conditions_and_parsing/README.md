@@ -25,6 +25,12 @@ If you have two version of bash installed as follows and PATH set to ```/home/ju
 ```
 
 * How to use while, until and for loops
+
+The __while__ and __until__ loops are similar to each other. The main difference is that the while loop iterates as long as the condition evaluates to true and the until loop iterates as long as the condition evaluates to false.
+
+If you have any questions or feedback, feel free to leave a comment.
+
+
 * How to use if, else, elif and case condition statements
 * How to use the cut command
 * What are files and other comparison operators, and how to use them
