@@ -2,7 +2,7 @@
 # Write a Bash script that displays:
 # script that gives you information about the holbertonschool file.
 
-i="holbertonschool"
+i="./holbertonschool"
 if [ -e "$i" ]
 then
     echo "$i file exists"
