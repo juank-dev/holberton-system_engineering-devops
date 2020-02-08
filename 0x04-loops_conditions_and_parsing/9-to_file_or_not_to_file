@@ -13,8 +13,8 @@ then
 	echo "$i file is empty"
     fi
     if [ -f "$i" ]
-	then
-	    echo "$i is a regular file"
+    then
+	echo "$i is a regular file"
     fi
 else
     echo "$i file does not exit"
