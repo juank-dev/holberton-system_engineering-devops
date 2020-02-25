@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+args=("$@")
+ping ${args[0]} -c 5
