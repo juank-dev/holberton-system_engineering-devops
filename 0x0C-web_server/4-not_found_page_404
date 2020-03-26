@@ -5,8 +5,8 @@ apt-get -y install nginx
 echo "Holberton School" > /var/www/html/index.nginx-debian.html
 new_string="server_name _;\n\trewrite ^\/redirect_me https:\/\/www.youtube.com\/watch?v=QH2-TGUlwu4 permanent;"
 sed -i "s/server_name _;/$new_string/" /etc/nginx/sites-available/default
-echo "Ceci n'est pas une page" > /etc/nginx/sites-available/404.html
+echo "Ceci n'est pas une page" > /usr/share/nginx/html/404.html
 replace_string="\n\t#error_page 404 \/404.html;"
-string_error="\n\terror_page 404 \/404.html;\n\tlocation = \/404.html {\n\t\troot \/etc\/nginx\/sites-available;\n\t\tinternal;\n\t}"
+string_error="\n\terror_page 404 \/404.html;\n\tlocation = \/404.html {\n\t\troot \/usr\/share\/nginx\/html;\n\t\tinternal;\n\t}"
 sed -i "s/$replace_string/$string_error/" /etc/nginx/sites-available/default
 service nginx restart
