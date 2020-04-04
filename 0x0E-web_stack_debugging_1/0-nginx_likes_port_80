@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+#Ubuntu container’s Nginx installation from listening on port 80
+sed -i "s/sites-enabled/sites-available/" /etc/nginx/nginx.conf
+service nginx restart
