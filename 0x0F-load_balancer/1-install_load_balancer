@@ -1,9 +1,7 @@
 #!/usr/bin/env bash
 # Install load balancer HAproxy with version 1.5 or greater
-apt-get install software-properties-common
-add-apt-repository ppa:vbernat/haproxy-1.8
-apt-get update
-apt-get install haproxy=1.8.\* -y
+apt-get -y update
+apt-get install haproxy -y
 
 # Set ENABLED to 1 if you want the init script to start haproxy.
 echo "ENABLED=1" >> /etc/default/haproxy
