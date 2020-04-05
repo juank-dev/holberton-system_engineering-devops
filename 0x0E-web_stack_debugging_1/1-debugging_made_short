@@ -2,4 +2,4 @@
 #Ubuntu container’s Nginx installation from listening on port 80
 cp /etc/nginx/sites-available/default /etc/nginx/sites-enabled/default
 service nginx restart
-nginx -s stop
+pkill nginx
