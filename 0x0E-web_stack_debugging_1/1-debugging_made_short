@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
 #Ubuntu container’s Nginx installation from listening on port 80
 cp /etc/nginx/sites-available/default /etc/nginx/sites-enabled/default
-service nginx restart
 pkill nginx
+service nginx restart
