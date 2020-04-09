@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+# everything is run under the root user, which has the ability to run
+# anything as another user.
+
+if [ $# -eq 1 ]
+then
+	sudo -u "$1" whoami
+
+fi

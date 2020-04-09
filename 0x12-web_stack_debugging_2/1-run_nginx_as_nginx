@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+# script
+service nginx start
+pkill apache2
+old="#user www-data;"
+new="user nginx;"
+sed -i "s/$old/$new/" /etc/nginx/nginx.conf
+sed -i "s/80/8080/" /etc/nginx/sites-available/default
+chmod 644 /etc/nginx/nginx.conf
+chown nginx:nginx /etc/nginx/nginx.conf
+sudo -u nginx service nginx restart
