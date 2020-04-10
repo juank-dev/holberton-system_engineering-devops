@@ -1,6 +1,5 @@
 #!/usr/bin/env bash
-# script
-service nginx start
+# script nginx user
 pkill apache2
 old="#user www-data;"
 new="user nginx;"
