@@ -1,7 +1,6 @@
 #!/usr/bin/python3
 """
-Python script that, using this REST API, for a given employee ID,
-returns information about his/her TODO list progress.
+Python script that, using this REST API, Records all tasks from all employees.
 """
 
 if __name__ == "__main__":
@@ -29,5 +28,5 @@ if __name__ == "__main__":
                     info_json[user].append({"username": user_name,
                                             "task": y.get("title"),
                                             "completed": y.get("completed")})
-            list_all = {**list_all, **info_json}
+            list_all.update(info_json)
         json.dump(list_all, json_file)
