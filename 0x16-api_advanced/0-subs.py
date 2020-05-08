@@ -5,6 +5,7 @@ subreddit is given, the function should return 0."""
 import json
 import requests
 
+
 def number_of_subscribers(subreddit):
     """Return the number of subscribers"""
     URL = "https://www.reddit.com/r/{}/about/.json".format(subreddit)
