@@ -20,15 +20,15 @@ For this task head to https://www.datadoghq.com/ and sign up for a free Datadog 
 
 ### Monitoring metrics
 
-Among the litany of data your monitoring service can report to you are system metrics. You can use these metrics to determine statistics such as reads/writes per second, which can help your company determine if/how they should scale. Set up some monitors within the Datadog dashboard to monitor and alert you of a few. You can read about the various system metrics that you can monitor here: ![System Check](https://intranet.hbtn.io/rltoken/naY47nur2yPJNw8tdACnzQ). 
+Among the litany of data your monitoring service can report to you are system metrics. You can use these metrics to determine statistics such as reads/writes per second, which can help your company determine if/how they should scale. Set up some monitors within the Datadog dashboard to monitor and alert you of a few. You can read about the various system metrics that you can monitor here: [System Check](https://intranet.hbtn.io/rltoken/naY47nur2yPJNw8tdACnzQ). 
 
 <p align="center"><img src="images/datadog4.png" width="700"></p>
 
 ### Dashboard 
 
 Now create a dashboard with different metrics displayed in order to get a few different visualizations.
- to get the id of your dashboard, you may need to use ![Datadog’s API](https://docs.datadoghq.com/api/v1/dashboards/#get-all-dashboards)
+ to get the id of your dashboard, you may need to use [Datadog’s API](https://docs.datadoghq.com/api/v1/dashboards/#get-all-dashboards)
 
-<p align="center"><img src="imagesdatadog56.png" width="700"></p>
+<p align="center"><img src="images/datadog5.png" width="700"></p>
 
 
