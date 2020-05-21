@@ -9,3 +9,4 @@
 * 0x04. Loops, conditions and parsing
 * 0x05. Processes and signals
 * 0x06. Regular_expressions
+* 0x07. Networking_basics
